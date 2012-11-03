@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'libjpeg-turbo' target in the 'libjpeg-turbo' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif
