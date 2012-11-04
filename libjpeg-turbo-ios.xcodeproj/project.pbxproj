@@ -53,67 +53,27 @@
 		427BF6751645BDA500BC3809 /* jquant1.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6311645BD3700BC3809 /* jquant1.c */; };
 		427BF6761645BDA500BC3809 /* jquant2.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6321645BD3700BC3809 /* jquant2.c */; };
 		427BF6771645BDA500BC3809 /* jutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6351645BD3700BC3809 /* jutils.c */; };
-		427BF68F1645BF3A00BC3809 /* liblibjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427BF63C1645BD8C00BC3809 /* liblibjpeg.a */; };
 		427BF6961645BF4800BC3809 /* jdatadst-tj.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6901645BF4800BC3809 /* jdatadst-tj.c */; };
 		427BF6971645BF4800BC3809 /* jdatasrc-tj.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6911645BF4800BC3809 /* jdatasrc-tj.c */; };
 		427BF6981645BF4800BC3809 /* transupp.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6921645BF4800BC3809 /* transupp.c */; };
 		427BF6991645BF4800BC3809 /* turbojpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6941645BF4800BC3809 /* turbojpeg.c */; };
 		427BF6D11645C1E900BC3809 /* jsimd_arm.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6CF1645C1E900BC3809 /* jsimd_arm.c */; };
 		427BF6D51645D0BB00BC3809 /* libsimd-arm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427BF6B11645C08600BC3809 /* libsimd-arm.a */; };
-		427BF7071645D11E00BC3809 /* jcclrmmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6D81645D11E00BC3809 /* jcclrmmx.asm */; };
-		427BF7081645D11E00BC3809 /* jcclrss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6D91645D11E00BC3809 /* jcclrss2.asm */; };
-		427BF7091645D11E00BC3809 /* jccolmmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6DA1645D11E00BC3809 /* jccolmmx.asm */; };
-		427BF70A1645D11E00BC3809 /* jccolss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6DB1645D11E00BC3809 /* jccolss2.asm */; };
-		427BF70B1645D11E00BC3809 /* jcgrammx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6DC1645D11E00BC3809 /* jcgrammx.asm */; };
-		427BF70C1645D11E00BC3809 /* jcgrass2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6DD1645D11E00BC3809 /* jcgrass2.asm */; };
-		427BF70D1645D11E00BC3809 /* jcgrymmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6DE1645D11E00BC3809 /* jcgrymmx.asm */; };
-		427BF70E1645D11E00BC3809 /* jcgryss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6DF1645D11E00BC3809 /* jcgryss2.asm */; };
-		427BF7101645D11E00BC3809 /* jcqnt3dn.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E11645D11E00BC3809 /* jcqnt3dn.asm */; };
-		427BF7111645D11E00BC3809 /* jcqntmmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E21645D11E00BC3809 /* jcqntmmx.asm */; };
-		427BF7121645D11E00BC3809 /* jcqnts2f.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E31645D11E00BC3809 /* jcqnts2f.asm */; };
-		427BF7131645D11E00BC3809 /* jcqnts2i.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E41645D11E00BC3809 /* jcqnts2i.asm */; };
-		427BF7141645D11E00BC3809 /* jcqntsse.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E51645D11E00BC3809 /* jcqntsse.asm */; };
-		427BF7151645D11E00BC3809 /* jcsammmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E61645D11E00BC3809 /* jcsammmx.asm */; };
-		427BF7161645D11E00BC3809 /* jcsamss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E71645D11E00BC3809 /* jcsamss2.asm */; };
-		427BF7171645D11E00BC3809 /* jdclrmmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E81645D11E00BC3809 /* jdclrmmx.asm */; };
-		427BF7181645D11E00BC3809 /* jdclrss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6E91645D11E00BC3809 /* jdclrss2.asm */; };
-		427BF7191645D11E00BC3809 /* jdcolmmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6EA1645D11E00BC3809 /* jdcolmmx.asm */; };
-		427BF71A1645D11E00BC3809 /* jdcolss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6EB1645D11E00BC3809 /* jdcolss2.asm */; };
-		427BF71C1645D11E00BC3809 /* jdmermmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6ED1645D11E00BC3809 /* jdmermmx.asm */; };
-		427BF71D1645D11E00BC3809 /* jdmerss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6EE1645D11E00BC3809 /* jdmerss2.asm */; };
-		427BF71E1645D11E00BC3809 /* jdmrgmmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6EF1645D11E00BC3809 /* jdmrgmmx.asm */; };
-		427BF71F1645D11E00BC3809 /* jdmrgss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F01645D11E00BC3809 /* jdmrgss2.asm */; };
-		427BF7201645D11E00BC3809 /* jdsammmx.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F11645D11E00BC3809 /* jdsammmx.asm */; };
-		427BF7211645D11E00BC3809 /* jdsamss2.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F21645D11E00BC3809 /* jdsamss2.asm */; };
-		427BF7221645D11E00BC3809 /* jf3dnflt.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F31645D11E00BC3809 /* jf3dnflt.asm */; };
-		427BF7231645D11E00BC3809 /* jfmmxfst.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F41645D11E00BC3809 /* jfmmxfst.asm */; };
-		427BF7241645D11E00BC3809 /* jfmmxint.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F51645D11E00BC3809 /* jfmmxint.asm */; };
-		427BF7251645D11E00BC3809 /* jfss2fst.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F61645D11E00BC3809 /* jfss2fst.asm */; };
-		427BF7261645D11E00BC3809 /* jfss2int.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F71645D11E00BC3809 /* jfss2int.asm */; };
-		427BF7271645D11E00BC3809 /* jfsseflt.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F81645D11E00BC3809 /* jfsseflt.asm */; };
-		427BF7281645D11E00BC3809 /* ji3dnflt.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6F91645D11E00BC3809 /* ji3dnflt.asm */; };
-		427BF7291645D11E00BC3809 /* jimmxfst.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6FA1645D11E00BC3809 /* jimmxfst.asm */; };
-		427BF72A1645D11E00BC3809 /* jimmxint.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6FB1645D11E00BC3809 /* jimmxint.asm */; };
-		427BF72B1645D11E00BC3809 /* jimmxred.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6FC1645D11E00BC3809 /* jimmxred.asm */; };
-		427BF72C1645D11E00BC3809 /* jiss2flt.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6FD1645D11E00BC3809 /* jiss2flt.asm */; };
-		427BF72D1645D11E00BC3809 /* jiss2fst.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6FE1645D11E00BC3809 /* jiss2fst.asm */; };
-		427BF72E1645D11E00BC3809 /* jiss2int.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6FF1645D11E00BC3809 /* jiss2int.asm */; };
-		427BF72F1645D11E00BC3809 /* jiss2red.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF7001645D11E00BC3809 /* jiss2red.asm */; };
-		427BF7301645D11E00BC3809 /* jisseflt.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF7011645D11E00BC3809 /* jisseflt.asm */; };
-		427BF7311645D11E00BC3809 /* jsimd_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = 427BF7021645D11E00BC3809 /* jsimd_i386.c */; };
-		427BF7321645D11E00BC3809 /* jsimdcpu.asm in Sources */ = {isa = PBXBuildFile; fileRef = 427BF7051645D11E00BC3809 /* jsimdcpu.asm */; };
+		427BF7501645DD3300BC3809 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 427BF63C1645BD8C00BC3809 /* libjpeg.a */; };
+		427BF7591645E10800BC3809 /* jsimd_arm_neon.S in Sources */ = {isa = PBXBuildFile; fileRef = 427BF6CE1645C1E900BC3809 /* jsimd_arm_neon.S */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
-		427BF6D71645D0EE00BC3809 /* PBXBuildRule */ = {
+		427BF7581645E0BF00BC3809 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.proxy.script;
-			filePatterns = "*.asm";
+			filePatterns = "*.S";
 			fileType = pattern.proxy;
 			isEditable = 1;
 			outputFiles = (
+				"$(OBJECT_FILE_DIR_normal)/$(CURRENT_ARCH)/$(INPUT_FILE_BASE).o",
 			);
-			script = "$(DEVELOPER_BIN_DIR)/nasm -I. \n";
+			script = "\ncd \"$INPUT_FILE_DIR\"\n\nfor DIR in $HEADER_SEARCH_PATHS ; do\nINCLUDES=\"$INCLUDES -I$DIR\"\ndone\n\nfor DEFINE in $GCC_PREPROCESSOR_DEFINITIONS ; do\nDEFINES=\"$DEFINES -D$DEFINE\"\ndone;\n\nchmod a+x $SRCROOT/scripts/gas-preprocessor.pl\n\n$SRCROOT/scripts/gas-preprocessor.pl xcrun llvm-gcc-4.2 -x assembler-with-cpp -arch $CURRENT_ARCH -fmessage-length=0 -pipe -fpascal-strings -O$GCC_OPTIMIZATION_LEVEL  $DEFINES -isysroot $SDKROOT -gdwarf-2 -mthumb -miphoneos-version-min=$IPHONEOS_DEPLOYMENT_TARGET -iquote ./simd-arm-generated-files.hmap -I./simd-arm-own-target-headers.hmap -I./simd-arm-all-target-headers.hmap -iquote ./simd-arm-project-headers.hmap $INCLUDES -I./DerivedSources/armv7 -I./DerivedSources -F.. -c $INPUT_FILE_NAME -o $OBJECT_FILE_DIR_normal/$CURRENT_ARCH/$INPUT_FILE_BASE.o\n\n";
 		};
 /* End PBXBuildRule section */
 
@@ -133,45 +93,6 @@
 			remoteInfo = "simd-arm";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		427BF63A1645BD8C00BC3809 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427BF67F1645BF1200BC3809 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427BF69F1645C04700BC3809 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427BF6AF1645C08600BC3809 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		427BF5FC1645BD3700BC3809 /* jcapimin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jcapimin.c; path = libjpeg/jcapimin.c; sourceTree = "<group>"; };
@@ -233,14 +154,13 @@
 		427BF6341645BD3700BC3809 /* jsimddct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jsimddct.h; path = libjpeg/jsimddct.h; sourceTree = "<group>"; };
 		427BF6351645BD3700BC3809 /* jutils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jutils.c; path = libjpeg/jutils.c; sourceTree = "<group>"; };
 		427BF6361645BD3700BC3809 /* jversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jversion.h; path = libjpeg/jversion.h; sourceTree = "<group>"; };
-		427BF63C1645BD8C00BC3809 /* liblibjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		427BF63E1645BD8C00BC3809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		427BF63C1645BD8C00BC3809 /* libjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		427BF6781645BE0200BC3809 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = libjpeg/jconfig.h; sourceTree = "<group>"; };
 		427BF6791645BE2E00BC3809 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = libjpeg/config.h; sourceTree = "<group>"; };
 		427BF67A1645BE6000BC3809 /* jccolext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jccolext.c; path = libjpeg/jccolext.c; sourceTree = "<group>"; };
 		427BF67B1645BE8500BC3809 /* jdcolext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jdcolext.c; path = libjpeg/jdcolext.c; sourceTree = "<group>"; };
 		427BF67C1645BEAA00BC3809 /* jdmrgext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jdmrgext.c; path = libjpeg/jdmrgext.c; sourceTree = "<group>"; };
-		427BF6811645BF1200BC3809 /* liblibturbojpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibturbojpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		427BF6811645BF1200BC3809 /* libturbojpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libturbojpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		427BF6901645BF4800BC3809 /* jdatadst-tj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "jdatadst-tj.c"; path = "libturbojpeg/jdatadst-tj.c"; sourceTree = "<group>"; };
 		427BF6911645BF4800BC3809 /* jdatasrc-tj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "jdatasrc-tj.c"; path = "libturbojpeg/jdatasrc-tj.c"; sourceTree = "<group>"; };
 		427BF6921645BF4800BC3809 /* transupp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transupp.c; path = libturbojpeg/transupp.c; sourceTree = "<group>"; };
@@ -249,7 +169,6 @@
 		427BF6951645BF4800BC3809 /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = turbojpeg.h; path = libturbojpeg/turbojpeg.h; sourceTree = "<group>"; };
 		427BF69B1645BF7A00BC3809 /* jinclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jinclude.h; path = libturbojpeg/jinclude.h; sourceTree = "<group>"; };
 		427BF69C1645BFE000BC3809 /* tjutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tjutil.h; path = libturbojpeg/tjutil.h; sourceTree = "<group>"; };
-		427BF6A11645C04700BC3809 /* libsimd-i386.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsimd-i386.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427BF6B11645C08600BC3809 /* libsimd-arm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsimd-arm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427BF6CC1645C1DB00BC3809 /* jsimd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsimd.h; path = libturbojpeg/jsimd.h; sourceTree = "<group>"; };
 		427BF6CD1645C1DB00BC3809 /* jsimddct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsimddct.h; path = libturbojpeg/jsimddct.h; sourceTree = "<group>"; };
@@ -305,33 +224,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		427BF6391645BD8C00BC3809 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		427BF67E1645BF1200BC3809 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427BF7501645DD3300BC3809 /* libjpeg.a in Frameworks */,
 				427BF6D51645D0BB00BC3809 /* libsimd-arm.a in Frameworks */,
-				427BF68F1645BF3A00BC3809 /* liblibjpeg.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427BF69E1645C04700BC3809 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427BF6AE1645C08600BC3809 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				427BF5FA1645BD0B00BC3809 /* libturbojpeg */,
-				427BF63D1645BD8C00BC3809 /* Frameworks */,
 				427BF5E91645B6F400BC3809 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -350,9 +247,8 @@
 		427BF5E91645B6F400BC3809 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				427BF63C1645BD8C00BC3809 /* liblibjpeg.a */,
-				427BF6811645BF1200BC3809 /* liblibturbojpeg.a */,
-				427BF6A11645C04700BC3809 /* libsimd-i386.a */,
+				427BF63C1645BD8C00BC3809 /* libjpeg.a */,
+				427BF6811645BF1200BC3809 /* libturbojpeg.a */,
 				427BF6B11645C08600BC3809 /* libsimd-arm.a */,
 			);
 			name = Products;
@@ -460,14 +356,6 @@
 			name = header;
 			sourceTree = "<group>";
 		};
-		427BF63D1645BD8C00BC3809 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				427BF63E1645BD8C00BC3809 /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		427BF69A1645BF4C00BC3809 /* headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -555,30 +443,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		427BF63B1645BD8C00BC3809 /* libjpeg */ = {
+		427BF63B1645BD8C00BC3809 /* jpeg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 427BF6471645BD8C00BC3809 /* Build configuration list for PBXNativeTarget "libjpeg" */;
+			buildConfigurationList = 427BF6471645BD8C00BC3809 /* Build configuration list for PBXNativeTarget "jpeg" */;
 			buildPhases = (
 				427BF6381645BD8C00BC3809 /* Sources */,
-				427BF6391645BD8C00BC3809 /* Frameworks */,
-				427BF63A1645BD8C00BC3809 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = libjpeg;
+			name = jpeg;
 			productName = libjpeg;
-			productReference = 427BF63C1645BD8C00BC3809 /* liblibjpeg.a */;
+			productReference = 427BF63C1645BD8C00BC3809 /* libjpeg.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		427BF6801645BF1200BC3809 /* libturbojpeg */ = {
+		427BF6801645BF1200BC3809 /* turbojpeg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 427BF68A1645BF1200BC3809 /* Build configuration list for PBXNativeTarget "libturbojpeg" */;
+			buildConfigurationList = 427BF68A1645BF1200BC3809 /* Build configuration list for PBXNativeTarget "turbojpeg" */;
 			buildPhases = (
 				427BF67D1645BF1200BC3809 /* Sources */,
 				427BF67E1645BF1200BC3809 /* Frameworks */,
-				427BF67F1645BF1200BC3809 /* CopyFiles */,
+				427BF7451645DAF900BC3809 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -586,39 +472,19 @@
 				427BF6D41645D0B400BC3809 /* PBXTargetDependency */,
 				427BF68E1645BF3600BC3809 /* PBXTargetDependency */,
 			);
-			name = libturbojpeg;
+			name = turbojpeg;
 			productName = libturbojpeg;
-			productReference = 427BF6811645BF1200BC3809 /* liblibturbojpeg.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		427BF6A01645C04700BC3809 /* simd-i386 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 427BF6AA1645C04700BC3809 /* Build configuration list for PBXNativeTarget "simd-i386" */;
-			buildPhases = (
-				427BF69D1645C04700BC3809 /* Sources */,
-				427BF69E1645C04700BC3809 /* Frameworks */,
-				427BF69F1645C04700BC3809 /* CopyFiles */,
-			);
-			buildRules = (
-				427BF6D71645D0EE00BC3809 /* PBXBuildRule */,
-			);
-			dependencies = (
-			);
-			name = "simd-i386";
-			productName = "simd-i386";
-			productReference = 427BF6A11645C04700BC3809 /* libsimd-i386.a */;
+			productReference = 427BF6811645BF1200BC3809 /* libturbojpeg.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		427BF6B01645C08600BC3809 /* simd-arm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427BF6BA1645C08600BC3809 /* Build configuration list for PBXNativeTarget "simd-arm" */;
 			buildPhases = (
-				427BF6D21645C74900BC3809 /* ShellScript */,
 				427BF6AD1645C08600BC3809 /* Sources */,
-				427BF6AE1645C08600BC3809 /* Frameworks */,
-				427BF6AF1645C08600BC3809 /* CopyFiles */,
 			);
 			buildRules = (
+				427BF7581645E0BF00BC3809 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -636,7 +502,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Johannes Schriewer";
 			};
-			buildConfigurationList = 427BF5E21645B6F400BC3809 /* Build configuration list for PBXProject "libjpeg-turbo" */;
+			buildConfigurationList = 427BF5E21645B6F400BC3809 /* Build configuration list for PBXProject "libjpeg-turbo-ios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -648,29 +514,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				427BF63B1645BD8C00BC3809 /* libjpeg */,
-				427BF6801645BF1200BC3809 /* libturbojpeg */,
-				427BF6A01645C04700BC3809 /* simd-i386 */,
+				427BF63B1645BD8C00BC3809 /* jpeg */,
+				427BF6801645BF1200BC3809 /* turbojpeg */,
 				427BF6B01645C08600BC3809 /* simd-arm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		427BF6D21645C74900BC3809 /* ShellScript */ = {
+		427BF7451645DAF900BC3809 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/libturbojpeg/simd-arm/jsimd_arm_neon.S",
+				"$(TARGET_BUILD_DIR)/libturbojpeg.a",
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/jsimd_arm_neon.o",
+				"$(SRCROOT)/lib/libturbojpeg-arm.a",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "CC=$(xcrun -f llvm-gcc-4.2)\nMYDIR=$(dirname \"$0\")\n\nfor DIR in $HEADER_SEARCH_PATHS ; do\n    INCLUDES=\"$INCLUDES -I$DIR\"\ndone\n\nfor DEFINE in $GCC_PREPROCESSOR_DEFINITIONS ; do\n    DEFINES=\"$DEFINES -D$DEFINE\"\ndone;\n\nchmod a+x $SRCROOT/scripts/gas-preprocessor.pl\n\n$SRCROOT/scripts/gas-preprocessor.pl $CC -x assembler-with-cpp -arch $CURRENT_ARCH -fmessage-length=0 -pipe -fpascal-strings -O$GCC_OPTIMIZATION_LEVEL  $DEFINES -isysroot $SDKROOT -gdwarf-2 -mthumb -miphoneos-version-min=$IPHONEOS_DEPLOYMENT_TARGET -iquote $MYDIR/simd-arm-generated-files.hmap -I$MYDIR/simd-arm-own-target-headers.hmap -I$MYDIR/simd-arm-all-target-headers.hmap -iquote $MYDIR/simd-arm-project-headers.hmap $INCLUDES -I$MYDIR/DerivedSources/armv7 -I$MYDIR/DerivedSources -F$MYDIR/.. -c $SCRIPT_INPUT_FILE_0 -o $SCRIPT_OUTPUT_FILE_0\n";
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$(dirname \"$SCRIPT_INPUT_FILE_0\")/lib\"\ncp \"$SCRIPT_INPUT_FILE_0\" \"$SCRIPT_OUTPUT_FILE_0\"";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -739,60 +605,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		427BF69D1645C04700BC3809 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				427BF7071645D11E00BC3809 /* jcclrmmx.asm in Sources */,
-				427BF7081645D11E00BC3809 /* jcclrss2.asm in Sources */,
-				427BF7091645D11E00BC3809 /* jccolmmx.asm in Sources */,
-				427BF70A1645D11E00BC3809 /* jccolss2.asm in Sources */,
-				427BF70B1645D11E00BC3809 /* jcgrammx.asm in Sources */,
-				427BF70C1645D11E00BC3809 /* jcgrass2.asm in Sources */,
-				427BF70D1645D11E00BC3809 /* jcgrymmx.asm in Sources */,
-				427BF70E1645D11E00BC3809 /* jcgryss2.asm in Sources */,
-				427BF7101645D11E00BC3809 /* jcqnt3dn.asm in Sources */,
-				427BF7111645D11E00BC3809 /* jcqntmmx.asm in Sources */,
-				427BF7121645D11E00BC3809 /* jcqnts2f.asm in Sources */,
-				427BF7131645D11E00BC3809 /* jcqnts2i.asm in Sources */,
-				427BF7141645D11E00BC3809 /* jcqntsse.asm in Sources */,
-				427BF7151645D11E00BC3809 /* jcsammmx.asm in Sources */,
-				427BF7161645D11E00BC3809 /* jcsamss2.asm in Sources */,
-				427BF7171645D11E00BC3809 /* jdclrmmx.asm in Sources */,
-				427BF7181645D11E00BC3809 /* jdclrss2.asm in Sources */,
-				427BF7191645D11E00BC3809 /* jdcolmmx.asm in Sources */,
-				427BF71A1645D11E00BC3809 /* jdcolss2.asm in Sources */,
-				427BF71C1645D11E00BC3809 /* jdmermmx.asm in Sources */,
-				427BF71D1645D11E00BC3809 /* jdmerss2.asm in Sources */,
-				427BF71E1645D11E00BC3809 /* jdmrgmmx.asm in Sources */,
-				427BF71F1645D11E00BC3809 /* jdmrgss2.asm in Sources */,
-				427BF7201645D11E00BC3809 /* jdsammmx.asm in Sources */,
-				427BF7211645D11E00BC3809 /* jdsamss2.asm in Sources */,
-				427BF7221645D11E00BC3809 /* jf3dnflt.asm in Sources */,
-				427BF7231645D11E00BC3809 /* jfmmxfst.asm in Sources */,
-				427BF7241645D11E00BC3809 /* jfmmxint.asm in Sources */,
-				427BF7251645D11E00BC3809 /* jfss2fst.asm in Sources */,
-				427BF7261645D11E00BC3809 /* jfss2int.asm in Sources */,
-				427BF7271645D11E00BC3809 /* jfsseflt.asm in Sources */,
-				427BF7281645D11E00BC3809 /* ji3dnflt.asm in Sources */,
-				427BF7291645D11E00BC3809 /* jimmxfst.asm in Sources */,
-				427BF72A1645D11E00BC3809 /* jimmxint.asm in Sources */,
-				427BF72B1645D11E00BC3809 /* jimmxred.asm in Sources */,
-				427BF72C1645D11E00BC3809 /* jiss2flt.asm in Sources */,
-				427BF72D1645D11E00BC3809 /* jiss2fst.asm in Sources */,
-				427BF72E1645D11E00BC3809 /* jiss2int.asm in Sources */,
-				427BF72F1645D11E00BC3809 /* jiss2red.asm in Sources */,
-				427BF7301645D11E00BC3809 /* jisseflt.asm in Sources */,
-				427BF7311645D11E00BC3809 /* jsimd_i386.c in Sources */,
-				427BF7321645D11E00BC3809 /* jsimdcpu.asm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		427BF6AD1645C08600BC3809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				427BF6D11645C1E900BC3809 /* jsimd_arm.c in Sources */,
+				427BF7591645E10800BC3809 /* jsimd_arm_neon.S in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,7 +619,7 @@
 /* Begin PBXTargetDependency section */
 		427BF68E1645BF3600BC3809 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 427BF63B1645BD8C00BC3809 /* libjpeg */;
+			target = 427BF63B1645BD8C00BC3809 /* jpeg */;
 			targetProxy = 427BF68D1645BF3600BC3809 /* PBXContainerItemProxy */;
 		};
 		427BF6D41645D0B400BC3809 /* PBXTargetDependency */ = {
@@ -833,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -860,10 +678,14 @@
 		427BF6481645BD8C00BC3809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				DSTROOT = /tmp/libjpeg.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -872,10 +694,14 @@
 		427BF6491645BD8C00BC3809 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				DSTROOT = /tmp/libjpeg.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -884,12 +710,16 @@
 		427BF68B1645BF1200BC3809 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				DSTROOT = /tmp/libturbojpeg.dst;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libturbojpeg/**",
-					"$(SRCROOT)/libjpeg/**",
+					"$(SRCROOT)/libturbojpeg",
+					"$(SRCROOT)/libjpeg",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -898,46 +728,18 @@
 		427BF68C1645BF1200BC3809 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				DSTROOT = /tmp/libturbojpeg.dst;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libturbojpeg/**",
-					"$(SRCROOT)/libjpeg/**",
+					"$(SRCROOT)/libturbojpeg",
+					"$(SRCROOT)/libjpeg",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		427BF6AB1645C04700BC3809 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = i386;
-				DSTROOT = /tmp/simd_i386.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = i386;
-			};
-			name = Debug;
-		};
-		427BF6AC1645C04700BC3809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = i386;
-				DSTROOT = /tmp/simd_i386.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = i386;
 			};
 			name = Release;
 		};
@@ -956,7 +758,7 @@
 					"$(SRCROOT)/libturbojpeg",
 					"$(SRCROOT)/libjpeg",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -978,7 +780,7 @@
 					"$(SRCROOT)/libturbojpeg",
 					"$(SRCROOT)/libjpeg",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -988,7 +790,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		427BF5E21645B6F400BC3809 /* Build configuration list for PBXProject "libjpeg-turbo" */ = {
+		427BF5E21645B6F400BC3809 /* Build configuration list for PBXProject "libjpeg-turbo-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				427BF5F41645B6F400BC3809 /* Debug */,
@@ -997,29 +799,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		427BF6471645BD8C00BC3809 /* Build configuration list for PBXNativeTarget "libjpeg" */ = {
+		427BF6471645BD8C00BC3809 /* Build configuration list for PBXNativeTarget "jpeg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				427BF6481645BD8C00BC3809 /* Debug */,
 				427BF6491645BD8C00BC3809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		427BF68A1645BF1200BC3809 /* Build configuration list for PBXNativeTarget "libturbojpeg" */ = {
+		427BF68A1645BF1200BC3809 /* Build configuration list for PBXNativeTarget "turbojpeg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				427BF68B1645BF1200BC3809 /* Debug */,
 				427BF68C1645BF1200BC3809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		427BF6AA1645C04700BC3809 /* Build configuration list for PBXNativeTarget "simd-i386" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				427BF6AB1645C04700BC3809 /* Debug */,
-				427BF6AC1645C04700BC3809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		427BF6BA1645C08600BC3809 /* Build configuration list for PBXNativeTarget "simd-arm" */ = {
 			isa = XCConfigurationList;
@@ -1028,6 +824,7 @@
 				427BF6BC1645C08600BC3809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
