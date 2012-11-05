@@ -150,7 +150,7 @@
 		427BF67A1645BE6000BC3809 /* jccolext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jccolext.c; path = libjpeg/jccolext.c; sourceTree = "<group>"; };
 		427BF67B1645BE8500BC3809 /* jdcolext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jdcolext.c; path = libjpeg/jdcolext.c; sourceTree = "<group>"; };
 		427BF67C1645BEAA00BC3809 /* jdmrgext.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = jdmrgext.c; path = libjpeg/jdmrgext.c; sourceTree = "<group>"; };
-		427BF6811645BF1200BC3809 /* liblibturbojpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = liblibturbojpeg.a; path = libturbojpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		427BF6811645BF1200BC3809 /* libturbojpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libturbojpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		427BF6901645BF4800BC3809 /* jdatadst-tj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "jdatadst-tj.c"; path = "libturbojpeg/jdatadst-tj.c"; sourceTree = "<group>"; };
 		427BF6911645BF4800BC3809 /* jdatasrc-tj.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "jdatasrc-tj.c"; path = "libturbojpeg/jdatasrc-tj.c"; sourceTree = "<group>"; };
 		427BF6921645BF4800BC3809 /* transupp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transupp.c; path = libturbojpeg/transupp.c; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				427BF63C1645BD8C00BC3809 /* libjpeg.a */,
-				427BF6811645BF1200BC3809 /* liblibturbojpeg.a */,
+				427BF6811645BF1200BC3809 /* libturbojpeg.a */,
 				427BF6A11645C04700BC3809 /* libsimd-i386.a */,
 			);
 			name = Products;
@@ -475,7 +475,7 @@
 			);
 			name = turbojpeg;
 			productName = libturbojpeg;
-			productReference = 427BF6811645BF1200BC3809 /* liblibturbojpeg.a */;
+			productReference = 427BF6811645BF1200BC3809 /* libturbojpeg.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		427BF6A01645C04700BC3809 /* simd-i386 */ = {
@@ -721,8 +721,8 @@
 				ARCHS = i386;
 				DSTROOT = /tmp/libturbojpeg.dst;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libturbojpeg",
-					"$(SRCROOT)/libjpeg",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/libjpeg\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
@@ -738,8 +738,8 @@
 				ARCHS = i386;
 				DSTROOT = /tmp/libturbojpeg.dst;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libturbojpeg",
-					"$(SRCROOT)/libjpeg",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/libjpeg\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";

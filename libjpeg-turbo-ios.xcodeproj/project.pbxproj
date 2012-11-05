@@ -76,7 +76,7 @@
 			outputFiles = (
 				"$(OBJECT_FILE_DIR_normal)/$(CURRENT_ARCH)/$(INPUT_FILE_BASE).o",
 			);
-			script = "\ncd \"$INPUT_FILE_DIR\"\n\nfor DIR in $HEADER_SEARCH_PATHS ; do\nINCLUDES=\"$INCLUDES -I$DIR\"\ndone\n\nfor DEFINE in $GCC_PREPROCESSOR_DEFINITIONS ; do\nDEFINES=\"$DEFINES -D$DEFINE\"\ndone;\n\nchmod a+x $SRCROOT/scripts/gas-preprocessor.pl\n\n$SRCROOT/scripts/gas-preprocessor.pl xcrun llvm-gcc-4.2 -x assembler-with-cpp -arch $CURRENT_ARCH -fmessage-length=0 -pipe -fpascal-strings -O$GCC_OPTIMIZATION_LEVEL  $DEFINES -isysroot $SDKROOT -gdwarf-2 -mthumb -miphoneos-version-min=$IPHONEOS_DEPLOYMENT_TARGET -iquote ./simd-arm-generated-files.hmap -I./simd-arm-own-target-headers.hmap -I./simd-arm-all-target-headers.hmap -iquote ./simd-arm-project-headers.hmap $INCLUDES -I./DerivedSources/armv7 -I./DerivedSources -F.. -c $INPUT_FILE_NAME -o $OBJECT_FILE_DIR_normal/$CURRENT_ARCH/$INPUT_FILE_BASE.o\n\n";
+			script = "\ncd \"$INPUT_FILE_DIR\"\n\nfor DIR in $HEADER_SEARCH_PATHS ; do\nINCLUDES=\"$INCLUDES -I$(echo \"$DIR\"|sed -e 's/ /\\\\ /g;')\"\ndone\n\nfor DEFINE in $GCC_PREPROCESSOR_DEFINITIONS ; do\nDEFINES=\"$DEFINES -D$DEFINE\"\ndone;\n\nchmod a+x $SRCROOT/scripts/gas-preprocessor.pl\n\n\"$SRCROOT/scripts/gas-preprocessor.pl\" xcrun llvm-gcc-4.2 -x assembler-with-cpp -arch $CURRENT_ARCH -fmessage-length=0 -pipe -fpascal-strings -O$GCC_OPTIMIZATION_LEVEL  $DEFINES -isysroot \"$SDKROOT\" -gdwarf-2 -mthumb -miphoneos-version-min=$IPHONEOS_DEPLOYMENT_TARGET -iquote ./simd-arm-generated-files.hmap -I./simd-arm-own-target-headers.hmap -I./simd-arm-all-target-headers.hmap -iquote ./simd-arm-project-headers.hmap $INCLUDES -I./DerivedSources/armv7 -I./DerivedSources -F.. -c \"$INPUT_FILE_NAME\" -o \"$OBJECT_FILE_DIR_normal/$CURRENT_ARCH/$INPUT_FILE_BASE.o\"\n\n";
 		};
 /* End PBXBuildRule section */
 
@@ -736,8 +736,8 @@
 				);
 				DSTROOT = /tmp/libturbojpeg.dst;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libturbojpeg",
-					"$(SRCROOT)/libjpeg",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/libjpeg\"",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -754,8 +754,8 @@
 				);
 				DSTROOT = /tmp/libturbojpeg.dst;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libturbojpeg",
-					"$(SRCROOT)/libjpeg",
+					"\"$(SRCROOT)/libturbojpeg\"",
+					"\"$(SRCROOT)/libjpeg\"",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
