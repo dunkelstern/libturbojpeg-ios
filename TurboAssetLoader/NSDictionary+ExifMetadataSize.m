@@ -24,7 +24,7 @@
             return CGSizeMake([self[@"PixelHeight"] floatValue], [self[@"PixelWidth"] floatValue]);
         default:
             NSLog(@"Unknown EXIF rotation");
-            return CGSizeZero;
+            return CGSizeMake([self[@"PixelWidth"] floatValue], [self[@"PixelHeight"] floatValue]);
             break;
     }
 }
